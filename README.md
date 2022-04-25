@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Barebones ruby on rails application.
 
-Things you may want to cover:
+Created controllers for players and tournaments, migrations for players and tournaments, and a basic view for tournaments. 
 
-* Ruby version
+No seeders currently, I entered values with my console for local development.
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
