@@ -1,0 +1,15 @@
+<h1>Tournaments</h1>
+
+<form action="/action_page.php">
+  <label for="fname">Date of Tournament:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="submit" value="Search">
+</form>
+
+<ul>
+  <% @tournaments.each do |tournament| %>
+    <li>
+      <%= tournament.title %>
+    </li>
+  <% end %>
+</ul>
